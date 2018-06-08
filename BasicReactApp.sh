@@ -23,6 +23,7 @@ npm i eslint-plugin-import --save-dev
 npm i @fortawesome/fontawesome -S
 npm i @fortawesome/react-fontawesome -S
 npm i @fortawesome/fontawesome-free-solid -S
+npm i @fortawesome/fontawesome-free-brands -S
 
 
 # Copy over the basic webpack.config.js
