@@ -1,0 +1,21 @@
+# Create the React Directory Structure
+mkdir api
+mkdir images
+mkdir pages
+mkdir src
+mkdir styles
+cd ./src
+mkdir BasicReactApp
+mkdir Common
+cd ./Common
+mkdir components
+mkdir constants
+mkdir helpers
+cd ../
+cd ./BasicReactApp
+mkdir actions
+mkdir components
+mkdir constants
+mkdir containers
+mkdir reducers
+mkdir store
