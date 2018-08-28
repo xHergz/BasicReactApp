@@ -1,3 +1,5 @@
+# :warning: Currently Broken
+I foolishly merged to master after a few months of writing this and it doesn't work exactly right. I will be fixing it shortly but thought I'd put a warning here since it is the master branch.
 # BasicReactApp
 A script that sets up a basic ReactJS web application and directory structure that is ready to open.
 
