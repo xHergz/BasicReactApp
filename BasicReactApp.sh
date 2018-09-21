@@ -9,7 +9,7 @@ cd $new_app_dir
 # Call the NPM commands
 npm init
 npm i webpack webpack-cli -S
-npm i babel-loader babel-preset-env babel-preset-react babel-core babel-plugin-transform-object-rest-spread -S
+npm i babel-loader @babel/preset-env @babel/preset-react @babel/core babel-plugin-transform-object-rest-spread -S
 npm i react react-dom react-redux -S
 npm i redux redux-thunk -S
 npm i prop-types -S
@@ -49,6 +49,9 @@ cp $script_dir/files/.eslintrc $new_app_dir
 
 # Reminder to replace the scripts in package.json
 echo Remember to add the following scripts to the package.json file!
+# "dev": "webpack -d -w",
+# "build": "webpack -p",
+# "lint": "eslint ./src/"
 echo \"dev\": \"webpack -d -w\",
 echo \"build\": \"webpack -p\",
 echo \"lint\": \"eslint ./src/\"
