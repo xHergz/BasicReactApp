@@ -9,7 +9,7 @@ cd $new_app_dir
 # Call the NPM commands
 npm init
 npm i webpack webpack-cli -S
-npm i babel-loader @babel/preset-env @babel/preset-react @babel/core babel-plugin-transform-object-rest-spread -S
+npm i babel-loader @babel/preset-env @babel/preset-react @babel/core -S
 npm i react react-dom react-redux -S
 npm i redux redux-thunk -S
 npm i prop-types -S
@@ -24,6 +24,7 @@ npm i @fortawesome/fontawesome -S
 npm i @fortawesome/react-fontawesome -S
 npm i @fortawesome/fontawesome-free-solid -S
 npm i @fortawesome/fontawesome-free-brands -S
+npm install --save-dev @babel/plugin-proposal-object-rest-spread
 
 
 # Copy over the basic webpack.config.js
